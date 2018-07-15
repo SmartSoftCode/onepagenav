@@ -1,0 +1,133 @@
+a:focus {outline:0px solid}
+a{text-decoration: none;}
+.main-menu-area {
+  background: hsl(0, 0%, 15%) none repeat scroll 0 0;
+}
+.main-menu {
+	
+}
+.main-menu nav {
+	
+}
+
+.main-menu ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.main-menu ul li {
+	display: inline-block;
+}
+
+.main-menu ul li a {
+  color: #ffffff;
+  display: block;
+  font-family: bree serif;
+  font-size: 16px;
+  padding: 15px 25px;
+  text-transform: uppercase;
+  transition: all 0.5s ease 0s;
+}
+.main-menu ul li:hover a{
+    text-decoration: none;
+    background: #ea7d63
+}
+
+.section-1 {
+  background:#de542b;
+  height: 500px;
+  margin-top: 41px;
+  padding-bottom: 30px;
+}
+.section-2 {
+  background: #cba21c;
+  height: 500px;
+  margin-top: 41px;
+  padding-bottom: 30px;
+}
+.section-3 {
+  background: #10881a;
+  height: 500px;
+  margin-top: 41px;
+  padding-bottom: 30px;
+}
+.section-4 {
+  background:#0f93e5 ;
+  height: 500px;
+  margin-top: 41px;
+  padding-bottom: 30px;
+}
+.section-5 {
+  background: #e3227b;
+  height: 500px;
+  margin-top: 41px;
+  padding-bottom: 30px;
+}
+.section-1 h1{
+  color: #fff;
+  font-size: 52px;
+  font-weight: 700;
+  padding-top: 200px;
+  text-align: center;
+  font-family: bree serif;
+}
+.section-2 h1{
+  color: #fff;
+  font-size: 52px;
+  font-weight: 700;
+  padding-top: 200px;
+  text-align: center;
+  font-family: bree serif;
+}
+.section-3 h1{
+  color: #fff;
+  font-size: 52px;
+  font-weight: 700;
+  padding-top: 200px;
+  text-align: center;
+  font-family: bree serif;
+}
+.section-4 h1{
+  color: #fff;
+  font-size: 52px;
+  font-weight: 700;
+  padding-top: 200px;
+  text-align: center;
+  font-family: bree serif;
+}
+.section-5 h1{
+  color: #fff;
+  font-size: 52px;
+  font-weight: 700;
+  padding-top: 200px;
+  text-align: center;
+  font-family: bree serif;
+}
+
+
+.main-menu-area.stick {
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+	background: #262626;
+}
+.stick .main-menu ul li a {
+padding: 15px 30px;
+  transition: .3s;
+}
+
+.current{
+    background: #ea7d63 
+}
+
+
+
+
+
+
+
+
